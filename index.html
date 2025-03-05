@@ -3,12 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/">
+    <link rel="stylesheet" href="assets/css/main.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Homepage</title>
 </head>
 <body>
-    <h1>
-        
-    </h1>
+
+    <div>
+        <!-- modal trigger -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalMain">Click to Launch Modal</button>
+
+        <!-- main modal -->
+        <div class="modal fade" tabindex="-1" id="modalMain" data-backdrop="static">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content modal-content-bg modal-content-border-color">
+                    <div class="modal-header modal-header-bg modal-header-border-color">
+                        <h5 class="modal-title">This is a Modal</h5>
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores veritatis laboriosam rerum incidunt nihil eveniet obcaecati voluptatibus accusamus facere molestias aperiam quis magni, deserunt, deleniti perferendis. Facilis tempore cupiditate iste.
+                    </div>
+                    <div class="modal-footer modal-footer-border-colo">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary">Proceed</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
